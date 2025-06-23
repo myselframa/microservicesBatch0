@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+    message: "Welcome to FMCBank loans related local APIs "
+    contactDetails:
+      name: "RamLoansLocal - Developer"
+      email: "RamLoansLocal@fmcbank.com"
+    onCallSupport:
+      - (452) 456-2176
+      - (546) 764-8934

@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to FMCBank cards related qa APIs "
+  contactDetails:
+    name: "RamQA - Product Owner"
+    email: "RAMQA@fmcbank.com"
+  onCallSupport:
+    - (617) 432-2356
+    - (936) 564-8721
