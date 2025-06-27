@@ -1,0 +1,12 @@
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to FMCBank loans related QA APIs "
+  contactDetails:
+    name: "RAMCLoansQA - QA Lead"
+    email: "RAMLoansQA@fmcbank.com"
+  onCallSupport:
+    - (310) 875-4367
+    - (201) 236-1267

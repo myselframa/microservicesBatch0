@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: loans
+  datasource:
+    url: jdbc:mysql://localhost:3307/loansdb
+    username: root
+    password: ROOT
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      mode: always
+  config:
+    import: "optional:configserver:http://localhost:8071"
+    profiles:
+      active:
+        - "qa"
+
+
+  build:
+    version: "3.0"
+
+  loans:
+    message: "Welcome to FMCBank loans related local APIs "
+    contactDetails:
+      name: "RamLoansLocal - Developer"
+      email: "RamLoansLocal@fmcbank.com"
+    onCallSupport:
+      - (452) 456-2176
+      - (546) 764-8934
+server:
+  port: 8090
