@@ -3,7 +3,7 @@
 build:
   version: "1.0"
 
-cards:
+accounts:
   message: "Welcome to FMCBank accounts related prod APIs "
   contactDetails:
     name: "RamaccountsProd - Product Owner"
